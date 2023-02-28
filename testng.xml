@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" thread-count="10" name="Appium Test Suite">
+	<test name="Appium Tests By Classes">
+		<classes>
+			<class name="prototypes.Test1" />
+		</classes>
+	</test> <!-- Appium Tests By Classes -->
+</suite> <!-- Appium Test Suite -->
